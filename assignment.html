@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Details</title>
+    </head>
+
+    <body>
+        <h1>User Details</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label>First name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your first name"><br><br>
+                <label>Last name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="name@email.com"><br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your password" /><br><br>
+                <label>Gender:</label><br><br>
+                    <input type="radio" name="subject" value="Male">Male<br><br>
+                    <input type="radio" name="subject" value="Female">Female<br><br>
+                    <input type="radio" name="subject" value="Other">Other<br><br>
+                <label for="birthday">Birthday:</label>
+                <input type="date" id="birthday" name="birthday"><br><br>
+                <label>Social medias you use:</label><br>
+                    <input type="checkbox" id="social_media" value="Facebook">Facebook<br>
+                    <input type="checkbox" id="social_media" value="YouTube">YouTube<br>
+                    <input type="checkbox" id="social_media" value="WhatsApp">WhatsApp<br>
+                    <input type="checkbox" id="social_media" value="Instagram">Instagram<br>
+                    <input type="checkbox" id="social_media" value="Twitter">Twitter (X)<br>
+                    <input type="checkbox" id="social_media" value="Snapchat">Snapchat<br>
+                    <input type="checkbox" id="social_media" value="Reddit">Reddit<br>
+                    <input type="checkbox" id="social_media" value="Pinterest">Pinterest<br>
+                    <input type="checkbox" id="other_social_media" value="Other">Other<br><br>
+                <label>Reason for using this webpage:</label><br>
+                    <select name="reason" id="reason">
+                        <option value="blank"></option>
+                        <option value="reason1">I want to know how this form works</option>
+                        <option value="reason2">I saw the code and wanted to make my own form</option>
+                        <option value="reason3">Someone recommended this to me</option>
+                        <option value="reason4">I stumbled on this by accident</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+                <label for="description">Additional details (optional):</label><br/>
+                <textarea rows="5" cols="50" name="description" placeholder="Please tell us more."></textarea><br><br>
+                <label for="fileupload">Image:</label>
+                <input type="file" name="fileupload" accept="image/*" /><br><br><br><br>
+                <center>
+                    <input type="submit" name="submit" value="Submit" />
+                    <input type="reset" name="reset" value="Reset" />
+                </center>
+            </fieldset>
+        </form>
+    </body>
+</html>
